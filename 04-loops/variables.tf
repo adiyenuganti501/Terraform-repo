@@ -25,7 +25,7 @@ variable "project" {
 
 variable "instances" {
     type = list
-    default = ["mongodb", "redis", "mysql"]
+    default = ["mongodb", "redis", "mysql","frontend"]
   
 }
 
